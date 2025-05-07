@@ -1,3 +1,5 @@
+const TOKEN = import.meta.env.VITE_TOKEN;
+
 const UrlApi = "https://api.github.com/users/";
 
 const InputSearchUser = document.querySelector("#InputSearchUser");
@@ -17,7 +19,7 @@ BtnValide.addEventListener("click", getUser);
 async function getUser() {
 	const response = await fetch(UrlApi + "S29Ducky", {
 		headers: {
-			Authorization: `Bearer ${SC}`,
+			Authorization: `Bearer ${TOKEN}`,
 		},
 	});
 
