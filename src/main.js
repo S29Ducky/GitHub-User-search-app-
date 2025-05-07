@@ -13,6 +13,10 @@ const bio = document.querySelector("#bio");
 const Repos = document.querySelector("#Repos");
 const Followe = document.querySelector("#Followe");
 const Following = document.querySelector("#Following");
+const Locat = document.querySelector("#Locat")
+const link = document.querySelector("#link")
+const Twiter = document.querySelector("#Twiter")
+const LinkGithub = document.querySelector("#LinkGithub")
 
 BtnValide.addEventListener("click", getUser);
 
@@ -30,10 +34,16 @@ async function getUser() {
 	let UsernameData = data.name;
 	let dateCreationData = data.created_at;
 	let BioData = data.bio;
+	let ReposData = data.public_repos
+	let FolloweData = data.followers
+	let FollowingData = data.following
+	let LocatData = 
 
 	PpUser.textContent = UserPpData;
 	loginUser.textContent = loginData;
 	username.textContent = UsernameData;
 	joined.textContent = dateCreationData;
 	bio.textContent = BioData;
+	Repos.textContent = ReposData;
+	Followe.textContent = FolloweData;
 }
