@@ -1,0 +1,3 @@
+# Ignorer les fichiers de Token
+*.env
+node_modules/
