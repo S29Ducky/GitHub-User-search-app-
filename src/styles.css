@@ -1,12 +1,12 @@
-/* * {
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-    color: white;
+	color: white;
 }
 
-body{
-    background-color: #141D2F;
+body {
+	background-color: #141d2f;
 }
 
 header {
@@ -19,4 +19,4 @@ header {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-} */
+}

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./styles.css" />
+		<link rel="stylesheet" href="/src/styles.css" />
 		<title>GitHub user search</title>
 	</head>
 	<body>
@@ -12,13 +12,13 @@
 			<div class="themeColor">
 				<p>LIGHT</p>
 				<button id="BtnThemeColor">
-					<img src="./assets/IconeSun.svg" alt="Sun" />
+					<img src="/IconeSun.svg" alt="Sun" />
 				</button>
 			</div>
 		</header>
 		<main>
 			<label for="">
-				<img src="./assets/loupe.svg" alt="Loupe" />
+				<img src="/loupe.svg" alt="Loupe" />
 				<input
 					id="InputSearchUser"
 					type="text"
@@ -29,7 +29,7 @@
 			<section class="UserResultCase">
 				<article>
 					<div class="pp">
-						<img id="PpUser" src="./assets/pdp.svg" alt="Photo de profil" />
+						<img id="PpUser" src="/pdp.svg" alt="Photo de profil" />
 					</div>
 					<div class="usernam">
 						<h2 id="name">The Octocat</h2>
@@ -44,18 +44,40 @@
 					</p>
 				</div>
 				<article class="repoFolowe">
-					<div class="infoRepo"><p>Repos</p><span id="Repos">8</span></div>
-					<div class="infoRepo"><p>Followers</p><span id="Followe">3938</span></div>
-					<div class="infoRepo"><p>Following</p><span id="Following">9</span></div>
+					<div class="infoRepo">
+						<p>Repos</p>
+						<span id="Repos">8</span>
+					</div>
+					<div class="infoRepo">
+						<p>Followers</p>
+						<span id="Followe">3938</span>
+					</div>
+					<div class="infoRepo">
+						<p>Following</p>
+						<span id="Following">9</span>
+					</div>
 				</article>
 				<article class="lienLoc">
-					<span><img src="./assets/pointMap.svg" alt=""><p id="Locat"></p>San Francisco</span>
-					<span><img src="./assets/IconeUrl.svg" alt=""><p id="link">https://github.blog</p></span>
-					<span><img src="./assets/twiter.svg" alt=""><p id="Twiter">Not Available</p></span>
-					<span><img src="./assets/officeBuilding.svg" alt=""><p id="LinkGithub">@github</p></span>
+					<span
+						><img src="/pointMap.svg" alt="" />
+						<p id="Locat"></p>
+						San Francisco</span
+					>
+					<span
+						><img src="/IconeUrl.svg" alt="" />
+						<p id="link">https://github.blog</p></span
+					>
+					<span
+						><img src="/twiter.svg" alt="" />
+						<p id="Twiter">Not Available</p></span
+					>
+					<span
+						><img src="/officeBuilding.svg" alt="" />
+						<p id="LinkGithub">@github</p></span
+					>
 				</article>
 			</section>
 		</main>
 	</body>
-	<script type="module" src="./main.js"></script>
+	<script type="module" src="/src/main.js"></script>
 </html>

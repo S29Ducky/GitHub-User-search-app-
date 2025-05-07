@@ -1,6 +1,5 @@
 const UrlApi = "https://api.github.com/users/";
 
-
 const InputSearchUser = document.querySelector("#InputSearchUser");
 const BtnValide = document.querySelector("#BtnValide");
 const UserResultCase = document.querySelector("#UserResultCase");
@@ -9,9 +8,9 @@ const loginUser = document.querySelector("#name");
 const username = document.querySelector("#usernam");
 const joined = document.querySelector("#joined");
 const bio = document.querySelector("#bio");
-const Repos = document.querySelector("#Repos")
-const Followe = document.querySelector("#Followe")
-const Following = document.querySelector("#Following")
+const Repos = document.querySelector("#Repos");
+const Followe = document.querySelector("#Followe");
+const Following = document.querySelector("#Following");
 
 BtnValide.addEventListener("click", getUser);
 
