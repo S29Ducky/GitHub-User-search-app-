@@ -1,0 +1,22 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: #141D2F;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.themeColor {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
